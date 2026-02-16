@@ -21,7 +21,7 @@ Raw TTC Data\
   → Evaluation Point Generation\
   → Parameter Optimisation\
   → Magic Formula Model\
-  → Plotting\
+  → Plotting
 
 # Requirements
 MATLAB toolbox requires:
