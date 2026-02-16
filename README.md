@@ -1,5 +1,5 @@
 # PacejkaTyreModel
-Pacejka Tyre Model on MATLAB for (Imperial Formula Racing)[https://www.imperialformularacing.com/]
+Pacejka Tyre Model on MATLAB for [Imperial Formula Racing](https://www.imperialformularacing.com/)
 
 MATLAB framework to process the TTC tyre test data and identify the parameters for Pacejka Magic Formula.
 The toolkit filters raw tyre test runs, extracts the steady state sweeps, fits smoothing splines and optimises the Magic Formula coefficients for:
