@@ -2,6 +2,8 @@ clear
 close all
 clc
 
+addpath(genpath('TTCdata'))
+
 tyre_model = struct;
 tyre_model.p = struct; % all the parameters will be stored here 
 
@@ -78,4 +80,5 @@ tyre_model.mz = tyre_model.mz.resultsAnalysis(true);
 %% SAVING 
 p = tyre_model.p ;
 save('p.mat', 'p')
+
 % writetable(struct2table(tyre_model.p), 'p.csv')
