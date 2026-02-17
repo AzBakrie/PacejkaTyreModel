@@ -12,6 +12,7 @@ This project was made possible with the data provided by [Formula SAE Tire Test 
 
 # Prior Reading
 It is recommended that users read the documents in the [TTCRunGuide](https://github.com/AzBakrie/PacejkaTyreModel/tree/main/TTCRunGuide) Folder and to register in the [TTC Private Forum](https://www.fsaettc.org/)
+The tyres used were from Round 6 and Round 8
 
 # Pipeline Overview 
 Raw TTC Data\
@@ -41,6 +42,7 @@ addpath(genpath(pwd))
 ```
 # Basic Usage
 Run the ```mainscript.m``` file, ensuring the other classes are in the same path 
+The file initially runs the HOOSIER 18.0x7.5 10 R25B (Item 43105) to find the parameters for pure slip and combined, as there is test data for both. This is most similar to the tyres we are using, so we assume the same parameters and finally change the Fy0 parameters as we have cornering data for HOOSIER 16.0X6.0-10 R25B (Item 43070)
 
   # Plotting
   After running the mainscript.m file to show the plots, write in the Command Window:
