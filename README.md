@@ -14,6 +14,8 @@ This project was made possible with the data provided by [Formula SAE Tire Test 
 It is recommended that users read the documents in the [TTCRunGuide](https://github.com/AzBakrie/PacejkaTyreModel/tree/main/TTCRunGuide) Folder and to register in the [TTC Private Forum](https://www.fsaettc.org/)
 The tyres used were from Round 6 and Round 8
 
+The parameters for the Magic Formula are based on the parameters in this [document](https://functionbay.com/documentation/onlinehelp/Documents/Tire/MFTyre-MFSwift_Help.pdf)
+
 # Pipeline Overview 
 Raw TTC Data\
   → Condition Binning \
